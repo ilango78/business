@@ -4,7 +4,3 @@ services:
 
 before_install:
   - docker build -t ilango78/docker-react -f Dockerfile.dev .
-
-script:
-  - docker run -t ilango78/docker-react npm run test -- --coverage
-    
